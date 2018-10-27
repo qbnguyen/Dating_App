@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Matches</title>
+  <title>Friends</title>
 
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
       <br>
 
       <div class="text-center">
-        <a href="/matches"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> View Matches</button></a>
+       
         <a href="/"><button class="btn btn-lg btn-default"><span class="fa fa-home"></span></button></a>
       </div>
     </div>
@@ -31,7 +31,7 @@
     <div class="row">
       <div class="col-lg-12">
 
-        <!-- Matches Page -->
+        
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">Personal Info</h4>
@@ -41,16 +41,159 @@
             <form role="form">
 
               <div class="form-group">
-                <label for="matches-name">Name</label>
-                <input type="text" class="form-control" id="match-name"> 
+                <label for="user-name">Name</label>
+                <input type="text" class="form-control" id="user-name"> 
               </div>
 
               <div class="form-group">
-            <label for="matches-photo">Photo</label>
-              <input type="image" class="form-control" id="match-photo">
+            <label for="user-photo">Photo Link</label>
+              <input type="text" class="form-control" id="user-photo">
               </div>
 
+              <div class="form-group">
+                <label for="question-1">
+                        <span> Your mind is always buzzing with unexplored ideas and plans.</span>
+               </label>
+               <select class="form-control" id="question-1">
+                        <option disabled selected hidden>Select an option </option>
+                       <option value="1"> 1 (Strongly Disagree) </option>
+                       <option value="2"> 2 </option>
+                       <option value="3"> 3 </option>
+                       <option value="4"> 4 </option>
+                       <option value="5"> 5 (Strongly Agree) </option>
+                </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="question-2">
+                            <span> You love adventures and new cultures.</span>
+                   </label>
+                   <select class="form-control" id="question-2">
+                            <option disabled selected hidden>Select an option</option>
+                           <option value="1"> 1 (Strongly Disagree) </option>
+                           <option value="2"> 2 </option>
+                           <option value="3"> 3 </option>
+                           <option value="4"> 4 </option>
+                           <option value="5"> 5 (Strongly Agree) </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="question-3">
+                            <span> You want a big family. </span>
+                   </label>
+                   <select class="form-control" id="question-3">
+                            <option disabled selected hidden>Select an option</option>
+                           <option value="1"> 1 (Strongly Disagree) </option>
+                           <option value="2"> 2 </option>
+                           <option value="3"> 3 </option>
+                           <option value="4"> 4 </option>
+                           <option value="5"> 5 (Strongly Agree) </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="question-4">
+                            <span> People can rarely upset you. </span>
+                   </label>
+                   <select class="form-control" id="question-4">
+                            <option disabled selected hidden>Select an option</option>
+                           <option value="1"> 1 (Strongly Disagree) </option>
+                           <option value="2"> 2 </option>
+                           <option value="3"> 3 </option>
+                           <option value="4"> 4 </option>
+                           <option value="5"> 5 (Strongly Agree) </option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question-5">
+                        <span> You rarely get carried away by fantasies and ideas.You always keep your eyes on the prize.</span>
+               </label>
+               <select class="form-control" id="question-5">
+                        <option disabled selected hidden>Select an option</option>
+                       <option value="1"> 1 (Strongly Disagree) </option>
+                       <option value="2"> 2 </option>
+                       <option value="3"> 3 </option>
+                       <option value="4"> 4 </option>
+                       <option value="5"> 5 (Strongly Agree) </option>
+                </select>
+        </div>
+
+        <div class="form-group">
+            <label for="question-6">
+                    <span> You love animals. </span>
+           </label>
+           <select class="form-control" id="question-6">
+                    <option disabled selected hidden>Select an option</option>
+                   <option value="1"> 1 (Strongly Disagree) </option>
+                   <option value="2"> 2 </option>
+                   <option value="3"> 3 </option>
+                   <option value="4"> 4 </option>
+                   <option value="5"> 5 (Strongly Agree) </option>
+            </select>
+    </div>
+
+    <div class="form-group">
+        <label for="question-7">
+                <span> Family is the most important thing to you. </span>
+       </label>
+       <select class="form-control" id="question-7">
+                <option disabled selected hidden>Select an option</option>
+               <option value="1"> 1 (Strongly Disagree) </option>
+               <option value="2"> 2 </option>
+               <option value="3"> 3 </option>
+               <option value="4"> 4 </option>
+               <option value="5"> 5 (Strongly Agree) </option>
+        </select>
+</div>
+
+<div class="form-group">
+    <label for="question-8">
+            <span> You would rather spend time at home on the weekend than go out. </span>
+   </label>
+   <select class="form-control" id="question-8">
+            <option disabled selected hidden>Select an option</option>
+           <option value="1"> 1 (Strongly Disagree) </option>
+           <option value="2"> 2 </option>
+           <option value="3"> 3 </option>
+           <option value="4"> 4 </option>
+           <option value="5"> 5 (Strongly Agree) </option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="question-9">
+            <span> You perform best under pressure. </span>
+   </label>
+   <select class="form-control" id="question-9">
+            <option disabled selected hidden>Select an option</option>
+           <option value="1"> 1 (Strongly Disagree) </option>
+           <option value="2"> 2 </option>
+           <option value="3"> 3 </option>
+           <option value="4"> 4 </option>
+           <option value="5"> 5 (Strongly Agree) </option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="question-10">
+            <span> You are often your own biggest critic. </span>
+   </label>
+   <select class="form-control" id="question-10">
+            <option disabled selected hidden>Select an option</option>
+           <option value="1"> 1 (Strongly Disagree) </option>
+           <option value="2"> 2 </option>
+           <option value="3"> 3 </option>
+           <option value="4"> 4 </option>
+           <option value="5"> 5 (Strongly Agree) </option>
+    </select>
+</div>
+
+
               <button type="submit" class="btn btn-primary submit">Submit</button>
+
+
             </form>
 
           </div>
@@ -74,15 +217,32 @@
       event.preventDefault();
 
       
-      var newMatch = {
-        Name: $("#match-name").val().trim(),
-        Photo: $("#match-photo").val.trim(),
+      var newUser = {
+        Name: $("#user-name").val().trim(),
+        Photo: $("#user-photo").val().trim(),
+        Scores: [
+            $("#question-1").val(),
+            $("#question-2").val(),
+            $("#question-3").val(),
+            $("#question-4").val(),
+            $("#question-5").val(),
+            $("#question-6").val(),
+            $("#question-7").val(),
+            $("#question-8").val(),
+            $("#question-9").val(),
+            $("#question-10").val(),
+        ]
       };
-  
+
+      $.post("/api/friends", newUser, function(res){
+          console.log("res", res)
+      })
+
+        // console.log(newUser);
 
           // Clear the form when submitting
-          $("#match-name").val("");
-          $("match-photo").val("");
+          $("#user-name").val("");
+          $("user-photo").val("");
         
 
         });
